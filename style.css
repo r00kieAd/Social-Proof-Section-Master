@@ -1,0 +1,249 @@
+body {
+    background-image: url('images/bg-pattern-top-desktop.svg'), url('images/bg-pattern-bottom-desktop.svg');
+    background-repeat: no-repeat, repeat;
+    background-size: auto, cover;
+    background-position: left top, right bottom;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70rem;
+    font-family: 'League Spartan', sans-serif;
+    /* border: 1px solid black; */
+}
+
+.subdiv1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    position: relative;
+    width: 50%;
+    margin-left: 2%;
+}
+
+.info h1{
+    width: 60%;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: left;
+    color: hsl(300, 43%, 22%);
+}
+
+.info p{
+    width: 60%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: hsl(300, 43%, 22%);
+}
+
+.ratings {
+    position: relative;
+    padding: 1%;
+    width: 30%;
+    margin-left: 8%;
+    /* border: 1px solid black; */
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    padding: 0.1rem;
+    width: 100%;
+    margin: 4%;
+    border: 1px solid hsl(300, 24%, 96%);
+    border-radius: 10px;
+    color: hsl(300, 43%, 22%);
+    background-color: hsl(300, 24%, 96%);
+    font-weight: 600;
+}
+
+.rating div {
+    padding: 0.1rem;
+    margin-left: 4%;
+}
+
+.rating div img {
+    margin-top: 18%;
+    width: 15px;
+    height: 15px;
+    padding: 1%;
+}
+
+.b {
+    margin-left: 12%;
+}
+
+.c {
+    margin-left: 22%;
+}
+
+.subdiv2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 2% 0 0 0;
+    width: 100%;
+}
+
+.card {
+    position: relative;
+    border: 0.1px solid hsl(300, 43%, 22%);
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+    margin: 2%;
+    width: 100%;
+    height: fit-content;
+    padding: 2.5%;
+    background-color: hsl(300, 43%, 22%);
+}
+
+.card div {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.card div img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    padding-right: 7%;
+    margin-bottom: 1%;
+}
+
+.card p {
+    line-height: 1;
+}
+
+.card2 {
+    margin-top: 4%;
+}
+
+.card3 {
+    margin-top: 6%;
+}
+
+@media screen and (max-width: 1400px) {
+
+    body {
+        font-size: 12px;
+    }
+
+    .main {
+        width: 70%;
+    }
+
+    .info h1{
+        width: 50%;
+        font-size: 250%;
+    }
+
+    .rating div img {
+        margin-top: 18%;
+        width: 12px;
+        height: 12px;
+        padding: 1%;
+    }
+
+    .ratings {
+        width: 35%;
+        margin-left: 1%;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .main {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        width: fit-content;
+    }
+
+    .subdiv1 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info {
+        width: fit-content;
+        margin-left: 1%;
+        text-align: center;
+    }
+    
+    .info h1{
+        width: fit-content;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .info p{
+        width: fit-content;
+        text-align: center;
+    }
+
+    .ratings {
+        position: relative;
+        padding: 1%;
+        width: 90%;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .rating {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .rating div {
+        padding: 0.1rem;
+        margin-left: 0;
+        justify-content: center;
+
+    }
+    
+    .rating div img {
+        margin-top: 1%;
+        width: 14px;
+        height: 14px;
+        padding: 1%;
+    }
+
+    .a, .b, .c {
+        margin: 4%;
+    }
+
+    .subdiv2 {
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+    
+    .card {
+        margin: 2%;
+        width: fit-content;
+    }
+    
+    .card p {
+        line-height: 1;
+    }
+    
+    .card1, .card2, .card3 {
+        margin-top: 0;
+    }
+}
