@@ -6,7 +6,7 @@
   <!-- <a href="https://socialproofsectionmaster.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center"><a href="https://r00kiead.github.io/social-proof-section-master/">Social Proof Section Master</a></h1>
+<h1 align="center"><a href="https://r00kiead.github.io/social-proof-section-master/">Social Proof Section</a></h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/r00kieAd/social-proof-section-master?color=56BEB8">
